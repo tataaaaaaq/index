@@ -5,10 +5,6 @@ body{
     min-height: 100vh;
     background-color: #eeeeee;
 }
-a{
-    color:white;
-    text-decoration: none;
-  }
 header{
     display: flex;
     padding: 10px 20px;
@@ -20,6 +16,10 @@ header{
     position: relative;
     align-items: center;
 }
+a{
+    color:white;
+    text-decoration: none;
+  }
 .logo img{
   max-width:100px;
   max-height:100px;
@@ -183,7 +183,7 @@ main img{
     padding-left: 80px;
 }
 .acompanhar img{
-    padding-left: 55px;
+    padding-left: 5px;
     border-radius:20%;
 }
 .apoiar a{
@@ -199,6 +199,7 @@ main img{
 .titulo p{
     font-size: 36px;
     grid-area: titulo;
+    padding-bottom: 30px;
 }
 .subtitulo p{
     font-size: 28px;
