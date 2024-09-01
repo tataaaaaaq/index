@@ -1,0 +1,354 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #eeeeee;
+}
+a{
+    color:white;
+    text-decoration: none;
+  }
+header{
+    display: flex;
+    padding: 10px 20px;
+    height: 100px;
+    height: 200px;
+    background-color: #5CCACA;
+    font-size: 28px;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+.logo img{
+  max-width:100px;
+  max-height:100px;
+  width: auto;
+  height: auto;
+}
+main{
+    display: grid;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    color:#00544A;
+}
+main img{
+    height: 100%;
+    max-height:190px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}
+/*FORM*/
+.formulario{
+    padding-top: 100px;
+    padding-top: 50px;
+    padding-left:80px;
+    color:#00544A;
+}
+/*GALERIA*/
+.galeria{
+    padding-top: 100px;
+    padding-top: 150px;
+    display: grid;
+    grid-template-areas:
+    "img1 img2"
+    "img3 img4"
+    "img5 img6";
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+.img1 img{
+    height: 100%;
+    max-height:190px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}.img2 img{
+    height: 100%;
+    max-height:190px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}.img3 img{
+    height: 100%;
+    max-height:190px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}.img4 img{
+    height: 100%;
+    max-height:190px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}.img5 img{
+    height: 100%;
+    max-height:190px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}.img6 img{
+    height: 100%;
+    max-height:190px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}
+/*REDES*/
+.redes{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.tartaruga{
+    margin-right: 50px;
+}
+.twitter img {
+    height: 100%;
+    max-height: 100px;
+    width: 100px;
+    padding-left: 150px;
+}
+.twitter p{
+    padding-left: 200px;
+    font-size:28px;
+}
+.insta img {
+    height: 100%;
+    max-height: 150px;
+    width: 150px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.insta p{
+    padding-left: 200px;
+    font-size:28px;
+}
+.face img {
+    height: 100%;
+    max-height: 150px;
+    width: 150px; 
+    padding-left: 150px;
+}
+.face p{
+    padding-left: 200px;
+    font-size:28px;
+}
+.tartaruguinha img{
+    height: 100%;
+    max-height: 400px;
+    width: 400px;
+    padding-top: 10px;
+    padding-left: 160px;
+}
+.tartaruguinha p{
+    font-size: 28px;
+    padding-left: 140px;
+    padding-top: 150px;
+}
+/*PRINCIPAL*/
+.imagens{
+    display: grid;
+    grid-template-areas:
+    "acompanhar apoiar";
+}
+.acompanhar{
+    grid-area: acompanhar;
+}
+.apoiar{
+    grid-area: apoiar;
+}
+.acompanhar a{
+    padding-left: 120px;
+}
+.acompanhar p{
+    padding-left: 80px;
+}
+.acompanhar img{
+    padding-left: 55px;
+    border-radius:20%;
+}
+.apoiar a{
+    padding-left: 120px;
+}
+.apoiar p{
+    padding-left: 80px;
+}
+.apoiar img{
+    padding-left: 55px;
+    border-radius:20%;
+}
+.titulo p{
+    font-size: 36px;
+    grid-area: titulo;
+}
+.subtitulo p{
+    font-size: 28px;
+}
+.perguntas_frequentes{
+    font-size: 28px;
+    grid-area: perguntas;
+}
+.oq_eh{
+    font-size: 24px;
+}
+.quem_apoia{
+    font-size: 24px;
+}
+.resposta_oq{
+    font-size: 20px;
+}
+.resposta_quem{
+    font-size: 20px;    
+}
+
+footer{
+    background-color: #5BB6BB;
+    color:#eeeeee;
+    padding: 20px;
+}
+
+@media(max-width: 850px){
+    header{
+        font-size: 22px;
+      }
+      .logo img{
+        max-width:50px;
+        max-height:50px;
+        width: auto;
+        height: auto;
+        padding-right: 30px;
+      }
+    main{
+        grid-template-columns: 250px;
+        justify-content: center;
+        font-size: 24px;
+    }
+    /*PRINCIPAL*/
+    .titulo p{
+        font-size: 36px;
+        grid-area: titulo;
+    }
+    .acompanhar{
+        grid-area: acompanhar;
+    }
+    .apoiar{
+        grid-area: apoiar;
+    }
+    .subtitulo p{
+        font-size: 28px;
+    }
+    .perguntas_frequentes{
+        font-size: 28px;
+        grid-area: perguntas;
+    }
+    .oq_eh{
+        font-size: 24px;
+    }
+    .quem_apoia{
+        font-size: 24px;
+    }
+    .resposta_oq{
+        font-size: 20px;
+    }
+    .resposta_quem{
+        font-size: 20px;    
+    }
+    /* REDES*/
+    .tartaruguinha p{
+      padding: 30px;
+    }
+    .tartaruguinha img{
+      padding-left: 90px;
+      height: 100%;
+      max-height: 250px;
+      width: 250px;
+    }
+    .twitter img {
+      height: 100%;
+      max-height: 80px;
+      width: 80px;
+      padding-left: 90px;
+    }
+    .twitter p{
+      font-size:24px;
+      padding-left: 90px;
+    }
+    .insta img {
+      height: 100%;
+      max-height: 80px;
+      width: 80px;
+      padding-left: 90px;
+    }
+    .insta p{
+      font-size:24px;
+      padding-left: 90px;
+    }
+    .face img {
+      height: 100%;
+      max-height: 80px;
+      width: 80px;
+      padding-left: 90px;
+    }
+    .face p{
+      font-size:24px;
+      padding-left: 90px;
+    }
+
+    /*GALERIA*/
+    .img1 img{
+        height: 100%;
+        max-height:190px;
+        width: 300px;
+        border-radius: 30px;
+        padding: 20px;
+    }.img2 img{
+        height: 100%;
+        max-height:190px;
+        width: 300px;
+        border-radius: 30px;
+        padding: 20px;
+    }.img3 img{
+        height: 100%;
+        max-height:190px;
+        width: 300px;
+        border-radius: 30px;
+        padding: 20px;
+    }.img4 img{
+        height: 100%;
+        max-height:190px;
+        width: 300px;
+        border-radius: 30px;
+        padding: 20px;
+    }.img5 img{
+        height: 100%;
+        max-height:190px;
+        width: 300px;
+        border-radius: 30px;
+        padding: 20px;
+    }.img6 img{
+        height: 100%;
+        max-height:190px;
+        width: 300px;
+        border-radius: 30px;
+        padding: 20px;
+    }
+  }
